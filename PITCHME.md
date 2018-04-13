@@ -74,8 +74,6 @@ If you get unhelpful errors (or no errors at all), then you have work to do
 
 @title[CompilerExamples]
 #### Compilers are user interfaces too!
-- Give them code
-- Get back error messages
 
 ![Java](javaError.png)
 ![Typescript](typescriptError.png)
