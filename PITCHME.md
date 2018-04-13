@@ -86,6 +86,6 @@ If you get unhelpful errors (or no errors at all), then you have work to do
 #### Compilers are user interfaces too!
 
 
-- ![Java](javaError.png)
-- ![Typescript](typescriptError.png)
+![Java](javaError.png)
+![Typescript](typescriptError.png)
 
