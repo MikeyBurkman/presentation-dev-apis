@@ -38,7 +38,8 @@
 Even with perfect documentation, things will go wrong
 
 - Do you document how errors are returned?
-- Do you use the accepted standards for your platform? (HTTP status codes, exit codes, etc)
+- Do you use the accepted standards for your platform?
+    - HTTP status codes, exit codes, etc
 - Are your error codes and messages **helpful**?
     - Can they help the user resolve the problem?
     - Can they help YOU resolve the problem?
@@ -49,18 +50,23 @@ Even with perfect documentation, things will go wrong
 
 @title[WhatNext]
 
-## How?
-#### It's not much different than a GUI
-- Try to explain your API to someone. Have them play dumb.
+#### Usability Testing
+It's not much different than for a GUI
 - If possible, ask someone to try and use it, WITHOUT your help
-- Try to use your API yourself. (Eat your own dog food.)
+- Try to explain your API to someone. Have them play dumb
+- Try to use your API yourself
+    - Eat your own dog food
+    - Note where YOU make mistakes
 
 ---
 
-#### Don't forget about failure scenarios
-- Do some fuzz testing -- basically the equivalent of mashing the keyboard
+#### Remember Failure Scenarios
+- Do some fuzz testing
+    - Basically the equivalent of mashing the keyboard
 - Try purposely doing things wrong, and see what the error messages are like
-- Leave out required fields, make fields the wrong type, purposely misspell words
+    - Leave out required fields
+    - Make fields the wrong type
+    - Purposely misspell words
 
 If you get unhelpful errors (or no errors at all), then you have work to do
 
