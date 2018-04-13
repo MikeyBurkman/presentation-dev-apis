@@ -3,8 +3,9 @@
 ## Unexpected Server Error! 
 ## See Admin2
 
+<br />
+
 #### APIs are User Interfaces, too!
-<br>
 <br>
 <span class="byline">Don't forget who your users are</span>
 
@@ -12,26 +13,35 @@
 
 @title[Intro2]
 
-#### APIs are User Interfaces
+#### Who is your audience
 - Sometimes that user is another developer
+- Sometimes that user barely classifies as a developer
 - Sometimes that user is yourself, 6 months from now
-- That user likely has a different skill level than you do now
+- Regardless, they want to get their task done, with little pain
 
 ---
 
 @title[FirstSteps]
 
 #### Think about initial reactions by users
-- Is it documented at all?
+- Is it documented at all? 
+    - Example inputs and outputs?
 - Do you require seemingly-unnecessary data?
 - Do you use **consistent** naming conventions?
+    - If you call it `userID` in one place, don't call it `userId` in another
+    - Don't mix `camelCase` and `underscore_case`
+    - Don't use both ISO8061 strings and Unix timestamps -- pick one
 
-<br />
+---
 
-#### What about things going wrong?
+#### Things will go wrong
+Even with perfect documentation, things will go wrong
+
 - Do you document how errors are returned?
 - Do you use the accepted standards for your platform? (HTTP status codes, exit codes, etc)
-- Are your error messages **helpful**?
+- Are your error codes and messages **helpful**?
+    - Can they help the user resolve the problem?
+    - Can they help YOU resolve the problem?
 
 <span class="byline">Think back to your own frustrations</span>
 
@@ -60,8 +70,7 @@ If you get unhelpful errors (or no errors at all), then you have work to do
 
 @title[CompilerExamples]
 #### Compilers are user interfaces too!
-- You enter some text, they spit back any errors they encounter
-- A good compiler will give you errors that are informative
+- Give them code -> error messages
 
 ![Typescript](typescriptError.png)
 ![Hava](javaError.png)
