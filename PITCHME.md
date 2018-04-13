@@ -91,3 +91,7 @@ You should get helpful errors!
 ![Java](javaError.png)
 ![Typescript](typescriptError.png)
 
+---
+
+## GOAL?
+### Happy users!
