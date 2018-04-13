@@ -74,9 +74,9 @@ Try purposely doing things wrong, and look at the error messages
 - Leave out required fields
 - Make fields the wrong type
 - Purposely misspell words
-@ulend
 
 If you get unhelpful errors (or no errors at all), then you have work to do
+@ulend
 
 <span class="byline">Remember all the times you got unhelpful errors while coding!</span>
 
