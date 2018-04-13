@@ -1,117 +1,59 @@
 @title[Introduction]
 
-# Git<span class="gold">Pitch</span>
+# Unexpected Server Error! See Admin2
 
-#### Markdown Presentations For Everyone on Git
+#### APIs are UIs, too!
 <br>
 <br>
-<span class="byline">[ GitHub, GitLab, Bitbucket, GitBucket, Gitea, Gogs ]</span>
+<span class="byline">Or, never forget who your users are</span>
 
 ---
 
-@title[PITCHME.md]
+@title[Intro2]
 
-#### GitPitch turns <span class="gold">PITCHME.md</span> into
-#### interactive,
-#### online and offline slideshows.
-<br>
-<span class="aside">Just like this one...</span>
-
----
-
-#### No more <span class="gray">Keynote</span>.
-#### No more <span class="gray">Powerpoint</span>.
-<br>
-#### Just <span class="gold">Markdown</span>.
-#### Then <span class="gold">Git-Commit</span>.
-
----?code=assets/md/hello.md&title=Step 1. PITCHME.md
-
-<br>
-#### Create slideshow content using GitHub Flavored Markdown in your favorite editor.
-
-<span class="aside">It's as easy as README.md with simple slide-delimeters (---)</span>
+#### APIs are User Interfaces
+- Sometimes that user is another developer
+- Sometimes that user is yourself, 6 months from now
+- That user likely has a different skill level than you do now
 
 ---
 
-@title[Step 2. Git-Commit]
+@title[FirstSteps]
 
-### <span class="gold">STEP 2. GIT-COMMIT</span>
-<br>
+#### Think about how someone will use it for the first time
+- Is it documented at all?
+- Do you require seemingly-unnecessary data?
+- Do you use **consistent** naming conventions?
 
-```shell
-$ git add PITCHME.md
-$ git commit -m "New slideshow content."
-$ git push
-
-Done!
-```
-
-@[1](Add your PITCHME.md slideshow content file.)
-@[2](Commit PITCHME.md to your local repo.)
-@[3](Push PITCHME.md to your public repo and you're done!)
-@[5](Supports GitHub, GitLab, Bitbucket, GitBucket, Gitea, and Gogs.)
+#### What about things going wrong?
+- Do you document how errors are returned?
+- Do you use the accepted standards for your platform? (HTTP status codes, exit codes, etc)
+- Are your error messages **helpful**?
 
 ---
 
-@title[Step 3. Done!]
+@title[WhatNext]
 
-### <span class="gold">STEP 3. GET THE WORD OUT!</span>
-<br>
-![GitPitch Slideshow URLs](assets/images/gp-slideshow-urls.png)
-<br>
-<br>
-#### Instantly use your GitPitch slideshow URL to promote, pitch or present absolutely anything.
+## How?
+#### Just like when writing a GUI, the best way is by testing with trusted users
+- Try to explain your API to someone
+- Ask someone to try and use it, WITHOUT your help
 
----
+#### Try to create errors!
+- Do some fuzz testing -- basically the equivalent of mashing the keyboard
+- Try purposely doing things wrong, and see what the error messages are like
+- Leave out required fields, make fields the wrong type, purposely misspell words
 
-@title[Slide Rich]
+If you get unhelpful errors (or no errors at all), then you have work to do
 
-### <span class="gold">Slide Rich</span>
-
-#### Code Presenting for Blocks, Files, and GISTs
-#### Image, Video, Chart, and Math Slides
-#### Multiple Themes with Easy Customization
-<br>
-#### <span class="gold">Plus collaboration is built-in...</span>
-#### Your Slideshow is Part of Your Project
-#### Under Git Version Control within Your Git Repo
+#### Remember all the times you got unhelpful errors while coding!
 
 ---
 
-@title[Feature Rich]
+@title[CompilerExamples]
+#### Compilers are user interfaces too!
+- You enter some text, they spit back any errors they encounter
+- A good compiler will give you errors that are informative
 
-### <span class="gold">Feature Rich</span>
-
-#### Present Online or Offline
-#### With Speaker Notes Support
-#### Print Presentation as PDF
-#### Auto-Generated Table-of-Contents
-#### Share Presentation on Twitter or LinkedIn
-
----
-
-### <span class="gold">GitPitch Pro - Now Live!</span>
-
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
-
----
-
-### Go for it.
-### Just add <span class="gold">PITCHME.md</span> ;)
-<br>
-[Click here to learn more @fa[external-link fa-pad-left]](https://github.com/gitpitch/gitpitch/wiki)
+![Typescript](typescriptError.png)
+![Hava](javaError.png)
