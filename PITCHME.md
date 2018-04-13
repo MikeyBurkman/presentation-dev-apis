@@ -13,11 +13,13 @@ APIs are User Interfaces, too!
 
 @title[Intro2]
 
-#### Who is your audience
+#### Who is your audience?
+@ul
 - Sometimes that user is another developer
 - Sometimes that user barely classifies as a developer
 - Sometimes that user is yourself, 6 months from now
-- Regardless, they want to get their task done, with little pain
+- Regardless, they want to get accomplish their task, with little pain
+@ulend
 
 ---
 
