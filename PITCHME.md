@@ -18,7 +18,7 @@ APIs are User Interfaces, too!
 - Might be another developer
 - Might barely classify as a developer
 - Might be yourself, 6 months from now
-- Regardless, they want to get accomplish their task, with little pain
+- Regardless, they want to accomplish their task, with little pain
 @ulend
 
 ---
