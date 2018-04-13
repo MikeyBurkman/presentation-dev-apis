@@ -74,13 +74,12 @@ It's not much different than for a GUI
 
 #### Remember Failure Scenarios
 Try purposely doing things wrong, and look at the error messages
-@ul
+
 - Leave out required fields
 - Make fields the wrong type
 - Purposely misspell words
-@ulend
 
-If you get unhelpful errors (or no errors at all), then you have work to do
+You should get helpful errors!
 
 <span class="byline">Remember all the times you got unhelpful errors while coding!</span>
 
@@ -88,7 +87,6 @@ If you get unhelpful errors (or no errors at all), then you have work to do
 
 @title[CompilerExamples]
 #### Compilers are user interfaces too!
-
 
 ![Java](javaError.png)
 ![Typescript](typescriptError.png)
