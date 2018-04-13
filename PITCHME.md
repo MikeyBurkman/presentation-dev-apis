@@ -5,7 +5,7 @@
 
 <br />
 
-#### APIs are User Interfaces, too!
+APIs are User Interfaces, too!
 <br>
 <span class="byline">Don't forget who your users are</span>
 
