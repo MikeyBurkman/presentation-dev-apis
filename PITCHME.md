@@ -1,4 +1,4 @@
-@title[Introduction]
+@title[Cover]
 
 ## Unexpected Server Error! 
 ## See Admin2
@@ -11,19 +11,19 @@ APIs are User Interfaces, too!
 
 ---
 
-@title[Intro2]
+@title[Intro]
 
 #### Who is your audience?
 @ul
-- Sometimes that user is another developer
-- Sometimes that user barely classifies as a developer
-- Sometimes that user is yourself, 6 months from now
+- Might be another developer
+- Might barely classify as a developer
+- Might be yourself, 6 months from now
 - Regardless, they want to get accomplish their task, with little pain
 @ulend
 
 ---
 
-@title[FirstSteps]
+@title[InitialReactions]
 
 #### Think about initial reactions
 @ul
@@ -37,6 +37,8 @@ APIs are User Interfaces, too!
 @ulend
 
 ---
+
+@title[ThingsBreak]
 
 #### Things will go wrong
 Even with perfect documentation, things will go wrong
@@ -54,7 +56,7 @@ Even with perfect documentation, things will go wrong
 
 ---
 
-@title[WhatNext]
+@title[UsabilityTesting]
 
 #### Usability Testing
 It's not much different than for a GUI
@@ -67,6 +69,8 @@ It's not much different than for a GUI
 @ulend
 
 ---
+
+@title[ThingsBreakMore]
 
 #### Remember Failure Scenarios
 Try purposely doing things wrong, and look at the error messages
