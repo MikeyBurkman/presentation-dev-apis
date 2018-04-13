@@ -26,6 +26,7 @@ APIs are User Interfaces, too!
 @title[FirstSteps]
 
 #### Think about initial reactions
+@ul
 - Is it documented at all? 
     - Example inputs and outputs?
 - Do you require seemingly-unnecessary data?
@@ -33,11 +34,13 @@ APIs are User Interfaces, too!
     - If you call it `userID` in one place, don't call it `userId` in another
     - Don't mix `camelCase` and `underscore_case`
     - Use the same date string format everywhere
+@ulend
 
 ---
 
 #### Things will go wrong
 Even with perfect documentation, things will go wrong
+@ul
 - Do you document how errors are returned?
 - Do you use the accepted standards for your platform?
     - HTTP status codes, exit codes, etc
@@ -45,6 +48,7 @@ Even with perfect documentation, things will go wrong
 - Are your error codes and messages *helpful*?
     - Can they help the user resolve the problem?
     - Can they help YOU resolve the problem?
+@ulend
 
 <span class="byline">Think back to your own frustrations</span>
 
@@ -54,19 +58,23 @@ Even with perfect documentation, things will go wrong
 
 #### Usability Testing
 It's not much different than for a GUI
-- Ssk someone else to use it, _without_ your help
+@ul
+- Ask someone else to use it, _without_ your help
 - Explain your API to someone. Have them play dumb.
 - Use your API yourself
     - Eat your own dog food
     - Note where YOU make mistakes
+@ulend
 
 ---
 
 #### Remember Failure Scenarios
-Try purposely doing things wrong, and see what the error messages are like
+Try purposely doing things wrong, and look at the error messages
+@ul
 - Leave out required fields
 - Make fields the wrong type
 - Purposely misspell words
+@ulend
 
 If you get unhelpful errors (or no errors at all), then you have work to do
 
@@ -77,5 +85,7 @@ If you get unhelpful errors (or no errors at all), then you have work to do
 @title[CompilerExamples]
 #### Compilers are user interfaces too!
 
-![Java](javaError.png)
-![Typescript](typescriptError.png)
+@ul
+-![Java](javaError.png)
+-![Typescript](typescriptError.png)
+@ulend
